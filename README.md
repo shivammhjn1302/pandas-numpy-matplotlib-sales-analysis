@@ -1,25 +1,31 @@
-# Sales Analysis with NumPy, Pandas & Matplotlib — Beginner Project
+# Retail Sales Pulse — Python Analytics
 
-A beginner analytical dataset project using Python to analyze sales trends and create visualizations.
+A clean Python analytics project that turns store-level sales data into a compact business readout: revenue trends, category performance, and region-wise profit signals.
 
-## Skills Demonstrated
+The visual direction is intentionally simple: **spreadsheet-to-boardroom**, with clear Matplotlib charts and a short written summary instead of over-designed visuals.
 
-- Loading CSV data with Pandas
-- Creating calculated columns with NumPy
-- Grouping data by month, category, and region
-- Creating Matplotlib charts
-- Writing a simple analysis summary
+## What this project shows
 
-## Run
+- Loading and validating CSV sales data with Pandas
+- Creating calculated metrics with NumPy
+- Grouping revenue by month, category, and region
+- Building readable Matplotlib charts
+- Writing a concise business summary from the analysis
+
+## Run locally
 
 ```bash
 pip install -r requirements.txt
 python scripts/analyze_sales.py
 ```
 
-## Output
+## Outputs
 
 - Monthly revenue trend chart
 - Revenue by category chart
 - Estimated profit by region chart
-- Markdown summary report
+- Markdown insight summary
+
+## Portfolio angle
+
+This is a practical analytics notebook-style project: small dataset, clear questions, reproducible script, and charts that explain the business story without decoration getting in the way.
